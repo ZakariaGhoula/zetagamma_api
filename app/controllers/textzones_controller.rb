@@ -1,3 +1,4 @@
+
 class TextzonesController < ApplicationController
   before_action :set_textzone, only: [:show, :update, :destroy]
   before_action :set_yolo, only: [:yolo]
